@@ -64,7 +64,7 @@
     }
 
     .xYoloW94MaBoUt-description > h2 {
-        font-size: 36px;
+        font-size: 28px;
     }
     .YoloW94MGaME-section {
         padding: 40px 0px;
@@ -83,7 +83,7 @@
         flex-direction: column;
     }
     .section-title > h2 {
-        font-size: 36px;
+        font-size: 28px;
     }
     .YoloW94MeVeNT-content-01 {
         display: flex;
@@ -133,7 +133,7 @@
     }
 
     .YoloW94MeVeNT-description > h2 {
-        font-size: 36px;
+        font-size: 28px;
     }
     .YoloW94MainEevent-card {
         display: flex;
@@ -150,7 +150,9 @@
     .YoloW94MainEevent-section {
         padding: 680px 0px 50px 0px;
     }
-
+    .YoloW94MainEevent-description > h2 {
+        font-size: 28px;
+    }
     .YoloW94MainEevent-img > img {
         width: 100%;
         height: auto;
@@ -181,11 +183,13 @@
     }
 
     .YoloW94MreVieW-title > h2 {
-        font-size: 36px;
+        font-size: 38px;
         margin: 15px 0px;
         padding: 50px 15px 0px 15px;
         width: 100%;
-        line-height: 50px;
+        line-height: 52px;
+        font-weight: 500;
+        font-style: italic;
     }
 
     .YoloW94MreVieW-bg {
@@ -216,6 +220,15 @@
     }
     h4.c-nav-tool_title {
         padding-top: 30px;
+    }
+    .YoloW94MainEevent-card-02 {
+        height: unset;
+    }
+    .YoloW94MainEevent-card {
+        height: unset;
+    }
+    .YoloW94MreVieW-card {
+        height: unset;
     }
 }
 
