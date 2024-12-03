@@ -2,6 +2,10 @@
     .xYoloW94Mlogo-brand > h1 {
         font-size: 14px;
     }
+    .z_Kf2G {
+        height: auto;
+        width: 100%;
+    }
     .xYoloW94Mlogo-img > img {
         width: 44px;
     }
@@ -11,6 +15,29 @@
     .xYoloW94MHomeConteNT {
         padding: 90px 15px;
         text-align: left;
+    }
+    .RY1B9m {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+
+    img.xYoloW94MaBoUt-img-01.ju_21 {
+        width: 100%;
+    }
+
+    section.xLgvUd {
+        padding: 10px 0px;
+        margin-bottom: -52px;
+    }
+
+    .dLiyMd {
+        padding: 30px 15px;
+    }
+
+    .xYoloW94MaBoUtsEction.hyb_54K {
+        padding-top: 60px;
+        padding-bottom: 20px;
     }
     .xYoloW94MHomeConteNT > h1 {
         font-size: 28px;
@@ -234,53 +261,39 @@
 
 
 
-@media only screen and (max-width: 868px) and (min-width: 576px) {
-    /* -------- Home Start -------- */
+@media only screen and (max-width: 868px) and (min-width: 601px) {
     .xYoloW94MHomeConteNT {
-        padding: 100px 10px;
+        padding: 80px 10px;
+    }
+
+    .xYoloW94MHomeSeCtion {
+        height: auto;
+    }
+    .xYoloW94MServIcecol-25 {
+        width: 45% !important;
+        height: 275px !important;
+    }
+
+    .xYoloW94MServIceoverlay span {
+        font-size: 38px;
     }
 
     .xYoloW94MHomeConteNT > h1 {
-        font-size: 65px;
-        line-height: 80px;
+        font-size: 38px;
+        line-height: 60px;
     }
 
     .xYoloW94MHomeConteNT > p {
         padding: 15px 40px;
     }
 
-
-
-    /* --------- Book Start ------ */
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
+    .xYoloW94MServIceoverlay p {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        height: 112px;
     }
 
-    .book {
-        padding: 80px 0px 40px 0px;
-    }
-
-    form#myForm {
-        width: 100%;
-        margin: 0px 15px;
-    }
-
-    .book .input {
-        padding: 20px 30px 20px 30px;
-    }
-
-    .book .search {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .book .search input {
-        font-size: 22px !important;
-        margin-top: 0px !important;
-    }
-
-    
-    /* --------- xYoloW94MaBoUt Start ------- */
     .xYoloW94MaBoUtsEction {
         padding: 40px 0px 40px 0px;
     }
@@ -302,12 +315,16 @@
     }
 
     .xYoloW94MaBoUt-description > h2 {
-        font-size: 50px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
+    .xYoloW94MaBoUt-description > p {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 12px 0px;
+    }
 
-
-    /* --------------- YoloW94MGaME Start --------------- */
     .YoloW94MGaME-card-content {
         display: flex;
         align-items: center;
@@ -317,7 +334,20 @@
         flex-direction: column;
     }
     .YoloW94MGaME-section {
-        padding: 40px 0px 80px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .YoloW94MainEevent-card-02 {
+        height: unset;
+    }
+
+    .YoloW94MainEevent-card {
+        height: auto;
+    }
+
+    h3.newsletter_title {
+        font-size: 22px;
+        line-height: 30px;
     }
     
 
@@ -396,7 +426,7 @@
 
     /* ---------------- YoloW94MreVieW ---------- */
     .YoloW94MreVieW-section {
-        padding: 40px 0px 100px 0px;
+        padding: 0px;
     }
 
     .YoloW94MreVieW-card {
@@ -461,13 +491,22 @@
 @media only screen and (max-width: 1200px) and (min-width: 869px) {
     /* --------- Home Start -------- */
     .xYoloW94MHomeConteNT {
-        padding: 100px 40px;
+        padding: 120px 40px;
         text-align: center;
+    }
+
+    .xYoloW94MHomeSeCtion {
+        height: auto;
     }
 	
 	.xYoloW94MHomeConteNT > h1 {
-		font-size: 64px;
-	}
+        font-size: 48px;
+    }
+
+    .xYoloW94MServIceoverlay span {
+        font-size: 35px;
+        padding: 0px 0px 0px 0px;
+    }
 
 
     /* --------- xYoloW94MaBoUt Start ------- */
@@ -490,9 +529,24 @@
     }
 
     .xYoloW94MaBoUt-description > h2 {
-        font-size: 50px;
+        font-size: 38px;
+        line-height: normal;
+    }
+    .xYoloW94MaBoUtsEction {
+        padding: 50px 0px 140px 0px;
     }
 
+    .YoloW94MGaME-section {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .YoloW94MeVeNT-description > h2 {
+        font-size: 32px;
+    }
+
+    .YoloW94MainEevent-section {
+        padding: 450px 0px 0px 0px;
+    }
 
 
     /* --------------- YoloW94MeVeNT ----------- */
@@ -604,26 +658,59 @@
     }
 
     img.xYoloW94MaBoUt-img-02 {
-        right: -165px;
-        top: 280px;
-        height: 420px;
-        width: 350px;
+        top: 320px;
     }
 
     .YoloW94MainEevent-img > img {
         width: 648px;
     }
+
+    .YoloW94MainEevent-card-02 {
+        height: auto;
+    }
+
+    .YoloW94MainEevent-card {
+        height: auto;
+    }
+
+    .YoloW94MainEevent-section {
+        padding: 520px 0px 0px 0px;
+    }
 }
 
 
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (max-width: 5120px) and (min-width: 1501px) {
     .YoloW94MainEevent-img > img {
         width: 648px;
     }
 
     .YoloW94MreVieW-description > p {
         margin: 40px 280px 20px 40px;
+    }
+
+    .YoloW94MainEevent-section {
+        padding: 550px 0px 50px 0px;
+    }
+
+    .YoloW94MainEevent-card-02 {
+        height: auto;
+    }
+
+    .YoloW94MainEevent-card {
+        height: auto;
+    }
+
+    section.xYoloW94MSerVices {
+        width: 84%;
+        max-width: 1365px;
+        margin: 0 auto 30px auto;
+    }
+
+    .xYoloW94MHomeConteNT {
+        padding: 140px 100px 100px 100px;
+        width: 55%;
+        margin: 0 auto;
     }
 }
 
